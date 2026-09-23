@@ -1,0 +1,9 @@
+[build]
+  command = "npm run build:netlify"
+  publish = ".next"
+
+[build.environment]
+  NODE_VERSION = "22.13.0"
+
+# Netlify's Next.js runtime turns the app routes in .next into serverless
+# functions, including /api/ai and /api/voice/token.

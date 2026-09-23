@@ -1,0 +1,10 @@
+{
+  "name": "Chinari — Bharatpur Tourism",
+  "short_name": "Chinari",
+  "description": "AI-powered tourism discovery and journey planning for Bharatpur, Chitwan.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f7f3e8",
+  "theme_color": "#1f4d3a",
+  "icons": [{ "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}

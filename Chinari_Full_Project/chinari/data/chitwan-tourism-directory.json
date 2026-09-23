@@ -1,0 +1,1877 @@
+{
+  "dataset_name": "Chitwan Tourism Directory",
+  "version": "2026-09-23",
+  "record_count": 63,
+  "notes": [
+    "Research starter dataset for a tourism website/API.",
+    "GPS coordinates, opening hours, visit duration and facilities are left blank where they were not reliably verified.",
+    "Entry fees are populated only where current Nepal Tourism Board information was found.",
+    "Some records are route stops, villages, park entrances or tourism areas rather than standalone attractions.",
+    "Maula Kalika Temple is in Gaindakot/Nawalpur, across the Narayani River from Chitwan, and is included only as a nearby attraction."
+  ],
+  "places": [
+    {
+      "id": "chitwan-national-park",
+      "name": "Chitwan National Park",
+      "category": "Wildlife",
+      "subcategory": "National park / wildlife",
+      "description": "Jungle safari, birdwatching, canoeing, jungle walks and wildlife viewing.",
+      "activities": [
+        "jungle safari",
+        "birdwatching",
+        "canoe ride",
+        "jungle walk",
+        "jeep drive"
+      ],
+      "best_season": "October-March",
+      "entry_fee_npr": null,
+      "entry_fee_note": null,
+      "visit_duration_hours": null,
+      "difficulty": null,
+      "latitude": null,
+      "longitude": null,
+      "address": null,
+      "opening_hours": null,
+      "facilities": [],
+      "google_maps_search": "Chitwan National Park, Chitwan, Nepal",
+      "image_search_queries": [
+        "Chitwan National Park Nepal rhino jungle",
+        "Chitwan National Park safari Nepal"
+      ],
+      "image_usage_status": "Web image found/recommended search query; verify copyright/licensing before publishing",
+      "verification_status": "researched",
+      "source_basis": "Official tourism information"
+    },
+    {
+      "id": "sauraha",
+      "name": "Sauraha",
+      "category": "Culture & Tourism",
+      "subcategory": "Tourism hub",
+      "description": "A major tourist town beside the Rapti River, with wildlife activities, Tharu culture, restaurants, hotels and riverside experiences.",
+      "activities": [
+        "Rapti River sunset",
+        "Tharu culture",
+        "restaurants",
+        "shopping",
+        "cycling",
+        "safari access"
+      ],
+      "best_season": "October-March",
+      "entry_fee_npr": null,
+      "entry_fee_note": null,
+      "visit_duration_hours": null,
+      "difficulty": null,
+      "latitude": null,
+      "longitude": null,
+      "address": null,
+      "opening_hours": null,
+      "facilities": [],
+      "google_maps_search": "Sauraha, Chitwan, Nepal",
+      "image_search_queries": [
+        "Sauraha Chitwan Nepal Rapti River",
+        "Sauraha Nepal Tharu village"
+      ],
+      "image_usage_status": "Web image found/recommended search query; verify copyright/licensing before publishing",
+      "verification_status": "researched",
+      "source_basis": "Official tourism information"
+    },
+    {
+      "id": "bharatpur",
+      "name": "Bharatpur",
+      "category": "City & Tourism",
+      "subcategory": "City",
+      "description": "Chitwan's main urban centre and a gateway to the district's attractions.",
+      "activities": [
+        "city sightseeing",
+        "markets",
+        "riverside",
+        "food"
+      ],
+      "best_season": "October-March",
+      "entry_fee_npr": null,
+      "entry_fee_note": null,
+      "visit_duration_hours": null,
+      "difficulty": null,
+      "latitude": null,
+      "longitude": null,
+      "address": null,
+      "opening_hours": null,
+      "facilities": [],
+      "google_maps_search": "Bharatpur, Chitwan, Nepal",
+      "image_search_queries": [
+        "Bharatpur Chitwan Nepal"
+      ],
+      "image_usage_status": "Web image found/recommended search query; verify copyright/licensing before publishing",
+      "verification_status": "researched",
+      "source_basis": "Official tourism information"
+    },
+    {
+      "id": "devghat",
+      "name": "Devghat",
+      "category": "Religion & Culture",
+      "subcategory": "Pilgrimage site",
+      "description": "A major pilgrimage destination at the confluence of the Kali Gandaki and Trishuli rivers, with temples, shrines and ashrams.",
+      "activities": [
+        "river confluence",
+        "temples",
+        "ashrams",
+        "pilgrimage",
+        "photography"
+      ],
+      "best_season": "October-March",
+      "entry_fee_npr": null,
+      "entry_fee_note": null,
+      "visit_duration_hours": null,
+      "difficulty": null,
+      "latitude": null,
+      "longitude": null,
+      "address": null,
+      "opening_hours": null,
+      "facilities": [],
+      "google_maps_search": "Devghat, Chitwan, Nepal",
+      "image_search_queries": [
+        "Devghat Dham Nepal river confluence",
+        "Devghat Chitwan temples Nepal"
+      ],
+      "image_usage_status": "Web image found/recommended search query; verify copyright/licensing before publishing",
+      "verification_status": "researched",
+      "source_basis": "Official tourism information"
+    },
+    {
+      "id": "meghauli",
+      "name": "Meghauli",
+      "category": "Nature & Wildlife",
+      "subcategory": "Tourism area",
+      "description": "Western gateway to Chitwan National Park, surrounded by community forest and the Rapti and Narayani rivers.",
+      "activities": [
+        "wildlife",
+        "birdwatching",
+        "Tharu culture",
+        "jungle activities",
+        "sunset"
+      ],
+      "best_season": "October-March",
+      "entry_fee_npr": null,
+      "entry_fee_note": null,
+      "visit_duration_hours": null,
+      "difficulty": null,
+      "latitude": null,
+      "longitude": null,
+      "address": null,
+      "opening_hours": null,
+      "facilities": [],
+      "google_maps_search": "Meghauli, Chitwan, Nepal",
+      "image_search_queries": [
+        "Meghauli Chitwan Nepal Golghat sunset",
+        "Meghauli Chitwan National Park"
+      ],
+      "image_usage_status": "Web image found/recommended search query; verify copyright/licensing before publishing",
+      "verification_status": "researched",
+      "source_basis": "Official tourism information"
+    },
+    {
+      "id": "beeshazar-associated-lakes",
+      "name": "Beeshazar and Associated Lakes",
+      "category": "Nature & Wildlife",
+      "subcategory": "Wetland / lake system",
+      "description": "A wetland complex known for birdlife, aquatic habitats and nature observation.",
+      "activities": [
+        "birdwatching",
+        "photography",
+        "nature walk",
+        "wetland viewing"
+      ],
+      "best_season": "October-March",
+      "entry_fee_npr": null,
+      "entry_fee_note": null,
+      "visit_duration_hours": null,
+      "difficulty": null,
+      "latitude": null,
+      "longitude": null,
+      "address": null,
+      "opening_hours": null,
+      "facilities": [],
+      "google_maps_search": "Beeshazar and Associated Lakes, Chitwan, Nepal",
+      "image_search_queries": [
+        "Beeshazar Lake Chitwan Nepal",
+        "Bish Hazari Tal Chitwan canoe"
+      ],
+      "image_usage_status": "Web image found/recommended search query; verify copyright/licensing before publishing",
+      "verification_status": "researched",
+      "source_basis": "Official tourism information"
+    },
+    {
+      "id": "kasara",
+      "name": "Kasara",
+      "category": "Wildlife",
+      "subcategory": "Park headquarters area",
+      "description": "The headquarters area of Chitwan National Park, with a museum and nearby wildlife and religious attractions.",
+      "activities": [
+        "museum",
+        "park information",
+        "wildlife",
+        "Bikram Baba"
+      ],
+      "best_season": "October-March",
+      "entry_fee_npr": null,
+      "entry_fee_note": null,
+      "visit_duration_hours": null,
+      "difficulty": null,
+      "latitude": null,
+      "longitude": null,
+      "address": null,
+      "opening_hours": null,
+      "facilities": [],
+      "google_maps_search": "Kasara, Chitwan, Nepal",
+      "image_search_queries": [
+        "Kasara Chitwan Nepal"
+      ],
+      "image_usage_status": "Web image found/recommended search query; verify copyright/licensing before publishing",
+      "verification_status": "researched",
+      "source_basis": "Official park information"
+    },
+    {
+      "id": "elephant-breeding-centre",
+      "name": "Elephant Breeding Centre, Khorsor",
+      "category": "Wildlife",
+      "subcategory": "Conservation centre",
+      "description": "A visitor attraction providing information about domesticated elephants and breeding work.",
+      "activities": [
+        "elephant viewing",
+        "education",
+        "photography"
+      ],
+      "best_season": "October-March",
+      "entry_fee_npr": 100,
+      "entry_fee_note": null,
+      "visit_duration_hours": null,
+      "difficulty": null,
+      "latitude": null,
+      "longitude": null,
+      "address": null,
+      "opening_hours": null,
+      "facilities": [],
+      "google_maps_search": "Elephant Breeding Centre, Khorsor, Chitwan, Nepal",
+      "image_search_queries": [
+        "Elephant Breeding Centre Khorsor Chitwan Nepal"
+      ],
+      "image_usage_status": "Web image found/recommended search query; verify copyright/licensing before publishing",
+      "verification_status": "researched",
+      "source_basis": "Official tourism fee page"
+    },
+    {
+      "id": "gharial-breeding-centre",
+      "name": "Gharial Breeding Centre, Kasara",
+      "category": "Wildlife",
+      "subcategory": "Conservation centre",
+      "description": "A short walk from park headquarters where gharials, marsh mugger crocodiles and turtles can be observed.",
+      "activities": [
+        "gharial viewing",
+        "crocodile viewing",
+        "education"
+      ],
+      "best_season": "October-March",
+      "entry_fee_npr": null,
+      "entry_fee_note": null,
+      "visit_duration_hours": null,
+      "difficulty": null,
+      "latitude": null,
+      "longitude": null,
+      "address": null,
+      "opening_hours": null,
+      "facilities": [],
+      "google_maps_search": "Gharial Breeding Centre, Kasara, Chitwan, Nepal",
+      "image_search_queries": [
+        "Gharial Breeding Centre Kasara Chitwan Nepal"
+      ],
+      "image_usage_status": "Web image found/recommended search query; verify copyright/licensing before publishing",
+      "verification_status": "researched",
+      "source_basis": "Official park information"
+    },
+    {
+      "id": "wildlife-display-information-centre",
+      "name": "Wildlife Display & Information Centre, Sauraha",
+      "category": "Museum & Education",
+      "subcategory": "Visitor centre",
+      "description": "Information about wildlife and conservation programs in the Chitwan area.",
+      "activities": [
+        "wildlife education",
+        "exhibits"
+      ],
+      "best_season": "October-March",
+      "entry_fee_npr": null,
+      "entry_fee_note": null,
+      "visit_duration_hours": null,
+      "difficulty": null,
+      "latitude": null,
+      "longitude": null,
+      "address": null,
+      "opening_hours": null,
+      "facilities": [],
+      "google_maps_search": "Wildlife Display & Information Centre, Sauraha, Chitwan, Nepal",
+      "image_search_queries": [
+        "Wildlife Display & Information Centre, Sauraha Chitwan Nepal"
+      ],
+      "image_usage_status": "Web image found/recommended search query; verify copyright/licensing before publishing",
+      "verification_status": "researched",
+      "source_basis": "Official park information"
+    },
+    {
+      "id": "tharu-cultural-museum",
+      "name": "Tharu Cultural Museum & Research Center",
+      "category": "Culture",
+      "subcategory": "Museum",
+      "description": "A museum focused on Tharu culture and local heritage in Sauraha.",
+      "activities": [
+        "museum",
+        "culture",
+        "heritage"
+      ],
+      "best_season": "October-March",
+      "entry_fee_npr": 10,
+      "entry_fee_note": null,
+      "visit_duration_hours": null,
+      "difficulty": null,
+      "latitude": null,
+      "longitude": null,
+      "address": null,
+      "opening_hours": null,
+      "facilities": [],
+      "google_maps_search": "Tharu Cultural Museum & Research Center, Chitwan, Nepal",
+      "image_search_queries": [
+        "Tharu Cultural Museum Sauraha Nepal"
+      ],
+      "image_usage_status": "Web image found/recommended search query; verify copyright/licensing before publishing",
+      "verification_status": "researched",
+      "source_basis": "Official tourism fee page"
+    },
+    {
+      "id": "bikram-baba",
+      "name": "Bikram Baba Temple",
+      "category": "Religion & Culture",
+      "subcategory": "Religious site",
+      "description": "A Hindu religious site near Chitwan National Park headquarters at Kasara.",
+      "activities": [
+        "temple",
+        "religion",
+        "culture"
+      ],
+      "best_season": "October-March",
+      "entry_fee_npr": null,
+      "entry_fee_note": null,
+      "visit_duration_hours": null,
+      "difficulty": null,
+      "latitude": null,
+      "longitude": null,
+      "address": null,
+      "opening_hours": null,
+      "facilities": [],
+      "google_maps_search": "Bikram Baba Temple, Chitwan, Nepal",
+      "image_search_queries": [
+        "Bikram Baba Temple Chitwan Nepal"
+      ],
+      "image_usage_status": "Web image found/recommended search query; verify copyright/licensing before publishing",
+      "verification_status": "researched",
+      "source_basis": "Official park information"
+    },
+    {
+      "id": "balmiki-ashram",
+      "name": "Balmiki Ashram",
+      "category": "Religion & Culture",
+      "subcategory": "Historic/religious site",
+      "description": "A forest-side religious site associated with the Ramayana tradition, on the bank of the Tribeni River.",
+      "activities": [
+        "pilgrimage",
+        "history",
+        "forest",
+        "religion"
+      ],
+      "best_season": "October-March",
+      "entry_fee_npr": null,
+      "entry_fee_note": null,
+      "visit_duration_hours": null,
+      "difficulty": null,
+      "latitude": null,
+      "longitude": null,
+      "address": null,
+      "opening_hours": null,
+      "facilities": [],
+      "google_maps_search": "Balmiki Ashram, Chitwan, Nepal",
+      "image_search_queries": [
+        "Balmiki Ashram Chitwan Nepal"
+      ],
+      "image_usage_status": "Web image found/recommended search query; verify copyright/licensing before publishing",
+      "verification_status": "researched",
+      "source_basis": "Official tourism information"
+    },
+    {
+      "id": "chakreshwar-temple",
+      "name": "Chakreshwar Temple, Devghat",
+      "category": "Religion & Culture",
+      "subcategory": "Temple",
+      "description": "A prominent temple at Devghat associated with the area's religious heritage.",
+      "activities": [
+        "temple",
+        "pilgrimage",
+        "heritage"
+      ],
+      "best_season": "October-March",
+      "entry_fee_npr": null,
+      "entry_fee_note": null,
+      "visit_duration_hours": null,
+      "difficulty": null,
+      "latitude": null,
+      "longitude": null,
+      "address": null,
+      "opening_hours": null,
+      "facilities": [],
+      "google_maps_search": "Chakreshwar Temple, Devghat, Chitwan, Nepal",
+      "image_search_queries": [
+        "Chakreshwar Temple, Devghat Chitwan Nepal"
+      ],
+      "image_usage_status": "Web image found/recommended search query; verify copyright/licensing before publishing",
+      "verification_status": "researched",
+      "source_basis": "Official tourism information"
+    },
+    {
+      "id": "rapti-river-sauraha",
+      "name": "Rapti River, Sauraha",
+      "category": "Nature",
+      "subcategory": "Riverfront",
+      "description": "Riverside area popular for sunset views, canoeing access and wildlife observation.",
+      "activities": [
+        "sunset",
+        "river walk",
+        "canoeing",
+        "photography"
+      ],
+      "best_season": "October-March",
+      "entry_fee_npr": null,
+      "entry_fee_note": null,
+      "visit_duration_hours": null,
+      "difficulty": null,
+      "latitude": null,
+      "longitude": null,
+      "address": null,
+      "opening_hours": null,
+      "facilities": [],
+      "google_maps_search": "Rapti River, Sauraha, Chitwan, Nepal",
+      "image_search_queries": [
+        "Rapti River, Sauraha Chitwan Nepal"
+      ],
+      "image_usage_status": "Web image found/recommended search query; verify copyright/licensing before publishing",
+      "verification_status": "researched",
+      "source_basis": "Official tourism information"
+    },
+    {
+      "id": "rapti-narayani-confluence-golghat",
+      "name": "Golghat / Rapti-Narayani Confluence",
+      "category": "Nature",
+      "subcategory": "River confluence",
+      "description": "A scenic river confluence at Meghauli, known for sunset views and, in clear weather, mountain views.",
+      "activities": [
+        "sunset",
+        "river views",
+        "photography",
+        "birdwatching"
+      ],
+      "best_season": "October-March",
+      "entry_fee_npr": null,
+      "entry_fee_note": null,
+      "visit_duration_hours": null,
+      "difficulty": null,
+      "latitude": null,
+      "longitude": null,
+      "address": null,
+      "opening_hours": null,
+      "facilities": [],
+      "google_maps_search": "Golghat / Rapti-Narayani Confluence, Chitwan, Nepal",
+      "image_search_queries": [
+        "Golghat / Rapti-Narayani Confluence Chitwan Nepal"
+      ],
+      "image_usage_status": "Web image found/recommended search query; verify copyright/licensing before publishing",
+      "verification_status": "researched",
+      "source_basis": "Official tourism information"
+    },
+    {
+      "id": "golaghat-tourism-park",
+      "name": "Golaghat Tourism Park",
+      "category": "Nature",
+      "subcategory": "Riverside park",
+      "description": "A riverside recreation/viewing area around Golaghat in Meghauli.",
+      "activities": [
+        "sunset",
+        "river views",
+        "relaxation",
+        "photography"
+      ],
+      "best_season": "October-March",
+      "entry_fee_npr": null,
+      "entry_fee_note": null,
+      "visit_duration_hours": null,
+      "difficulty": null,
+      "latitude": null,
+      "longitude": null,
+      "address": null,
+      "opening_hours": null,
+      "facilities": [],
+      "google_maps_search": "Golaghat Tourism Park, Chitwan, Nepal",
+      "image_search_queries": [
+        "Golaghat Tourism Park Chitwan Nepal"
+      ],
+      "image_usage_status": "Web image found/recommended search query; verify copyright/licensing before publishing",
+      "verification_status": "researched",
+      "source_basis": "Local listing; verify current facilities"
+    },
+    {
+      "id": "narayani-river-bharatpur",
+      "name": "Narayani River, Bharatpur",
+      "category": "Nature",
+      "subcategory": "Riverfront",
+      "description": "A major riverside landscape near Bharatpur and Narayangadh.",
+      "activities": [
+        "sunset",
+        "river walk",
+        "photography",
+        "local food"
+      ],
+      "best_season": "October-March",
+      "entry_fee_npr": null,
+      "entry_fee_note": null,
+      "visit_duration_hours": null,
+      "difficulty": null,
+      "latitude": null,
+      "longitude": null,
+      "address": null,
+      "opening_hours": null,
+      "facilities": [],
+      "google_maps_search": "Narayani River, Bharatpur, Chitwan, Nepal",
+      "image_search_queries": [
+        "Narayani River Bharatpur Nepal sunset"
+      ],
+      "image_usage_status": "Web image found/recommended search query; verify copyright/licensing before publishing",
+      "verification_status": "researched",
+      "source_basis": "General tourism listing"
+    },
+    {
+      "id": "pulchowk-narayani-bridge",
+      "name": "Pulchowk Narayani Bridge",
+      "category": "Landmark",
+      "subcategory": "Bridge / viewpoint",
+      "description": "A prominent bridge over the Narayani River near Bharatpur/Narayangadh.",
+      "activities": [
+        "river views",
+        "photography",
+        "city sightseeing"
+      ],
+      "best_season": "October-March",
+      "entry_fee_npr": null,
+      "entry_fee_note": null,
+      "visit_duration_hours": null,
+      "difficulty": null,
+      "latitude": null,
+      "longitude": null,
+      "address": null,
+      "opening_hours": null,
+      "facilities": [],
+      "google_maps_search": "Pulchowk Narayani Bridge, Chitwan, Nepal",
+      "image_search_queries": [
+        "Pulchowk Narayani Bridge Chitwan Nepal"
+      ],
+      "image_usage_status": "Web image found/recommended search query; verify copyright/licensing before publishing",
+      "verification_status": "researched",
+      "source_basis": "Local listing"
+    },
+    {
+      "id": "tikauli-jungle",
+      "name": "Tikauli Jungle",
+      "category": "Nature",
+      "subcategory": "Forest area",
+      "description": "A forested area between Bharatpur and eastern Chitwan, suitable for nature and cycling experiences.",
+      "activities": [
+        "cycling",
+        "nature walk",
+        "birdwatching",
+        "photography"
+      ],
+      "best_season": "October-March",
+      "entry_fee_npr": null,
+      "entry_fee_note": null,
+      "visit_duration_hours": null,
+      "difficulty": null,
+      "latitude": null,
+      "longitude": null,
+      "address": null,
+      "opening_hours": null,
+      "facilities": [],
+      "google_maps_search": "Tikauli Jungle, Chitwan, Nepal",
+      "image_search_queries": [
+        "Tikauli Jungle Chitwan Nepal"
+      ],
+      "image_usage_status": "Web image found/recommended search query; verify copyright/licensing before publishing",
+      "verification_status": "researched",
+      "source_basis": "Local tourism listing"
+    },
+    {
+      "id": "barandabhar-forest",
+      "name": "Barandabhar Forest",
+      "category": "Nature & Wildlife",
+      "subcategory": "Forest corridor",
+      "description": "A forested corridor important for wildlife movement and nature observation.",
+      "activities": [
+        "birdwatching",
+        "wildlife observation",
+        "nature"
+      ],
+      "best_season": "October-March",
+      "entry_fee_npr": null,
+      "entry_fee_note": null,
+      "visit_duration_hours": null,
+      "difficulty": null,
+      "latitude": null,
+      "longitude": null,
+      "address": null,
+      "opening_hours": null,
+      "facilities": [],
+      "google_maps_search": "Barandabhar Forest, Chitwan, Nepal",
+      "image_search_queries": [
+        "Barandabhar Forest Chitwan Nepal"
+      ],
+      "image_usage_status": "Web image found/recommended search query; verify copyright/licensing before publishing",
+      "verification_status": "researched",
+      "source_basis": "Regional tourism / conservation context"
+    },
+    {
+      "id": "baghmara-community-forest",
+      "name": "Baghmara Community Forest",
+      "category": "Nature & Wildlife",
+      "subcategory": "Community forest",
+      "description": "A community-managed forest area associated with wildlife experiences near Sauraha.",
+      "activities": [
+        "wildlife",
+        "birdwatching",
+        "nature walk"
+      ],
+      "best_season": "October-March",
+      "entry_fee_npr": null,
+      "entry_fee_note": null,
+      "visit_duration_hours": null,
+      "difficulty": null,
+      "latitude": null,
+      "longitude": null,
+      "address": null,
+      "opening_hours": null,
+      "facilities": [],
+      "google_maps_search": "Baghmara Community Forest, Chitwan, Nepal",
+      "image_search_queries": [
+        "Baghmara Community Forest Chitwan Nepal"
+      ],
+      "image_usage_status": "Web image found/recommended search query; verify copyright/licensing before publishing",
+      "verification_status": "researched",
+      "source_basis": "Local tourism listing; verify current access"
+    },
+    {
+      "id": "kumroj-community-forest",
+      "name": "Kumroj Community Forest",
+      "category": "Nature & Wildlife",
+      "subcategory": "Community forest",
+      "description": "A community forest area in the Sauraha/Ratnanagar region used for nature and wildlife experiences.",
+      "activities": [
+        "wildlife",
+        "birdwatching",
+        "forest walk"
+      ],
+      "best_season": "October-March",
+      "entry_fee_npr": null,
+      "entry_fee_note": null,
+      "visit_duration_hours": null,
+      "difficulty": null,
+      "latitude": null,
+      "longitude": null,
+      "address": null,
+      "opening_hours": null,
+      "facilities": [],
+      "google_maps_search": "Kumroj Community Forest, Chitwan, Nepal",
+      "image_search_queries": [
+        "Kumroj Community Forest Chitwan Nepal"
+      ],
+      "image_usage_status": "Web image found/recommended search query; verify copyright/licensing before publishing",
+      "verification_status": "researched",
+      "source_basis": "Local tourism listing; verify current access"
+    },
+    {
+      "id": "chitwan-community-forest",
+      "name": "Chitwan Community Forest",
+      "category": "Nature & Wildlife",
+      "subcategory": "Community forest",
+      "description": "Community-managed forest area in the Chitwan tourism landscape.",
+      "activities": [
+        "nature",
+        "birdwatching",
+        "wildlife"
+      ],
+      "best_season": "October-March",
+      "entry_fee_npr": null,
+      "entry_fee_note": null,
+      "visit_duration_hours": null,
+      "difficulty": null,
+      "latitude": null,
+      "longitude": null,
+      "address": null,
+      "opening_hours": null,
+      "facilities": [],
+      "google_maps_search": "Chitwan Community Forest, Chitwan, Nepal",
+      "image_search_queries": [
+        "Chitwan Community Forest Chitwan Nepal"
+      ],
+      "image_usage_status": "Web image found/recommended search query; verify copyright/licensing before publishing",
+      "verification_status": "researched",
+      "source_basis": "Local tourism listing; verify exact visitor access"
+    },
+    {
+      "id": "meghauli-community-forest",
+      "name": "Meghauli Community Forest",
+      "category": "Nature & Wildlife",
+      "subcategory": "Community forest",
+      "description": "A community-forest area associated with wildlife viewing and birdwatching in western Chitwan.",
+      "activities": [
+        "birdwatching",
+        "wildlife",
+        "forest activities"
+      ],
+      "best_season": "October-March",
+      "entry_fee_npr": null,
+      "entry_fee_note": null,
+      "visit_duration_hours": null,
+      "difficulty": null,
+      "latitude": null,
+      "longitude": null,
+      "address": null,
+      "opening_hours": null,
+      "facilities": [],
+      "google_maps_search": "Meghauli Community Forest, Chitwan, Nepal",
+      "image_search_queries": [
+        "Meghauli Community Forest Chitwan Nepal"
+      ],
+      "image_usage_status": "Web image found/recommended search query; verify copyright/licensing before publishing",
+      "verification_status": "researched",
+      "source_basis": "Official tourism information"
+    },
+    {
+      "id": "padampur",
+      "name": "Padampur / Old Padampur Area",
+      "category": "Culture & Landscape",
+      "subcategory": "Historic settlement area",
+      "description": "An area associated with Chitwan's changing settlement and park landscape.",
+      "activities": [
+        "history",
+        "local culture",
+        "landscape"
+      ],
+      "best_season": "October-March",
+      "entry_fee_npr": null,
+      "entry_fee_note": null,
+      "visit_duration_hours": null,
+      "difficulty": null,
+      "latitude": null,
+      "longitude": null,
+      "address": null,
+      "opening_hours": null,
+      "facilities": [],
+      "google_maps_search": "Padampur / Old Padampur Area, Chitwan, Nepal",
+      "image_search_queries": [
+        "Padampur / Old Padampur Area Chitwan Nepal"
+      ],
+      "image_usage_status": "Web image found/recommended search query; verify copyright/licensing before publishing",
+      "verification_status": "researched",
+      "source_basis": "Local/regional listing; verify exact tourist access"
+    },
+    {
+      "id": "madi-valley",
+      "name": "Madi Valley",
+      "category": "Nature & Culture",
+      "subcategory": "Valley / rural tourism",
+      "description": "A rural southern Chitwan area with agricultural landscapes and local communities.",
+      "activities": [
+        "rural tourism",
+        "culture",
+        "landscape",
+        "photography"
+      ],
+      "best_season": "October-March",
+      "entry_fee_npr": null,
+      "entry_fee_note": null,
+      "visit_duration_hours": null,
+      "difficulty": null,
+      "latitude": null,
+      "longitude": null,
+      "address": null,
+      "opening_hours": null,
+      "facilities": [],
+      "google_maps_search": "Madi Valley, Chitwan, Nepal",
+      "image_search_queries": [
+        "Madi Valley Chitwan Nepal"
+      ],
+      "image_usage_status": "Web image found/recommended search query; verify copyright/licensing before publishing",
+      "verification_status": "researched",
+      "source_basis": "Regional tourism listing; verify specific attractions"
+    },
+    {
+      "id": "chepang-hill-trail",
+      "name": "Chepang Hill Trail",
+      "category": "Adventure & Culture",
+      "subcategory": "Trekking route",
+      "description": "A multi-day cultural and trekking route through Chepang communities, forests and viewpoints, ending/starting around Shaktikhor.",
+      "activities": [
+        "trekking",
+        "homestay",
+        "birdwatching",
+        "culture",
+        "mountain views"
+      ],
+      "best_season": "October-April",
+      "entry_fee_npr": null,
+      "entry_fee_note": null,
+      "visit_duration_hours": null,
+      "difficulty": null,
+      "latitude": null,
+      "longitude": null,
+      "address": null,
+      "opening_hours": null,
+      "facilities": [],
+      "google_maps_search": "Chepang Hill Trail, Chitwan, Nepal",
+      "image_search_queries": [
+        "Chepang Hill Trail Chitwan Nepal"
+      ],
+      "image_usage_status": "Web image found/recommended search query; verify copyright/licensing before publishing",
+      "verification_status": "researched",
+      "source_basis": "Official tourism information"
+    },
+    {
+      "id": "hattibang",
+      "name": "Hattibang",
+      "category": "Adventure & Culture",
+      "subcategory": "Trail stop / village",
+      "description": "A major stop on the Chepang Hill Trail with forest scenery, mountain views and community homestays.",
+      "activities": [
+        "trekking",
+        "homestay",
+        "culture",
+        "views"
+      ],
+      "best_season": "October-April",
+      "entry_fee_npr": null,
+      "entry_fee_note": null,
+      "visit_duration_hours": null,
+      "difficulty": null,
+      "latitude": null,
+      "longitude": null,
+      "address": null,
+      "opening_hours": null,
+      "facilities": [],
+      "google_maps_search": "Hattibang, Chitwan, Nepal",
+      "image_search_queries": [
+        "Hattibang Chitwan Nepal"
+      ],
+      "image_usage_status": "Web image found/recommended search query; verify copyright/licensing before publishing",
+      "verification_status": "researched",
+      "source_basis": "Official tourism information"
+    },
+    {
+      "id": "siraichuli",
+      "name": "Siraichuli",
+      "category": "Adventure & Viewpoint",
+      "subcategory": "Hill viewpoint",
+      "description": "A 1,945 m hill on the Chepang route, known for sunrise, sunset and mountain views.",
+      "activities": [
+        "sunrise",
+        "sunset",
+        "trekking",
+        "mountain views"
+      ],
+      "best_season": "October-April",
+      "entry_fee_npr": null,
+      "entry_fee_note": null,
+      "visit_duration_hours": null,
+      "difficulty": null,
+      "latitude": null,
+      "longitude": null,
+      "address": null,
+      "opening_hours": null,
+      "facilities": [],
+      "google_maps_search": "Siraichuli, Chitwan, Nepal",
+      "image_search_queries": [
+        "Siraichuli Chitwan Nepal sunrise"
+      ],
+      "image_usage_status": "Web image found/recommended search query; verify copyright/licensing before publishing",
+      "verification_status": "researched",
+      "source_basis": "Official tourism information"
+    },
+    {
+      "id": "jyandala",
+      "name": "Jyandala Village",
+      "category": "Culture & Adventure",
+      "subcategory": "Chepang settlement",
+      "description": "A Chepang settlement on the Chepang Hill Trail where visitors can experience village life and homestays.",
+      "activities": [
+        "homestay",
+        "culture",
+        "village walk",
+        "trekking"
+      ],
+      "best_season": "October-April",
+      "entry_fee_npr": null,
+      "entry_fee_note": null,
+      "visit_duration_hours": null,
+      "difficulty": null,
+      "latitude": null,
+      "longitude": null,
+      "address": null,
+      "opening_hours": null,
+      "facilities": [],
+      "google_maps_search": "Jyandala Village, Chitwan, Nepal",
+      "image_search_queries": [
+        "Jyandala Village Chitwan Nepal"
+      ],
+      "image_usage_status": "Web image found/recommended search query; verify copyright/licensing before publishing",
+      "verification_status": "researched",
+      "source_basis": "Official tourism information"
+    },
+    {
+      "id": "chisapanitar",
+      "name": "Chisapanitar",
+      "category": "Nature & Adventure",
+      "subcategory": "Birdwatching site",
+      "description": "A forested point on the Chepang route noted by Nepal Tourism Board for birdwatching.",
+      "activities": [
+        "birdwatching",
+        "trekking",
+        "forest"
+      ],
+      "best_season": "October-April",
+      "entry_fee_npr": null,
+      "entry_fee_note": null,
+      "visit_duration_hours": null,
+      "difficulty": null,
+      "latitude": null,
+      "longitude": null,
+      "address": null,
+      "opening_hours": null,
+      "facilities": [],
+      "google_maps_search": "Chisapanitar, Chitwan, Nepal",
+      "image_search_queries": [
+        "Chisapanitar Chitwan Nepal"
+      ],
+      "image_usage_status": "Web image found/recommended search query; verify copyright/licensing before publishing",
+      "verification_status": "researched",
+      "source_basis": "Official tourism information"
+    },
+    {
+      "id": "upperdang-gadi",
+      "name": "Uppardang Gadi",
+      "category": "History & Adventure",
+      "subcategory": "Historic fort",
+      "description": "A historic fort and former Chitwan headquarters at about 1,275 m, with views of surrounding hills.",
+      "activities": [
+        "heritage",
+        "trekking",
+        "views",
+        "photography"
+      ],
+      "best_season": "October-April",
+      "entry_fee_npr": null,
+      "entry_fee_note": null,
+      "visit_duration_hours": null,
+      "difficulty": null,
+      "latitude": null,
+      "longitude": null,
+      "address": null,
+      "opening_hours": null,
+      "facilities": [],
+      "google_maps_search": "Uppardang Gadi, Chitwan, Nepal",
+      "image_search_queries": [
+        "Uppardang Gadi Chitwan Nepal"
+      ],
+      "image_usage_status": "Web image found/recommended search query; verify copyright/licensing before publishing",
+      "verification_status": "researched",
+      "source_basis": "Official tourism information"
+    },
+    {
+      "id": "shaktikhor",
+      "name": "Shaktikhor",
+      "category": "Culture & Adventure",
+      "subcategory": "Village / trail endpoint",
+      "description": "A major Chepang Hill Trail destination offering homestays, local food and cultural experiences.",
+      "activities": [
+        "homestay",
+        "culture",
+        "trekking",
+        "village tour"
+      ],
+      "best_season": "October-April",
+      "entry_fee_npr": null,
+      "entry_fee_note": null,
+      "visit_duration_hours": null,
+      "difficulty": null,
+      "latitude": null,
+      "longitude": null,
+      "address": null,
+      "opening_hours": null,
+      "facilities": [],
+      "google_maps_search": "Shaktikhor, Chitwan, Nepal",
+      "image_search_queries": [
+        "Shaktikhor Chitwan Nepal Chepang"
+      ],
+      "image_usage_status": "Web image found/recommended search query; verify copyright/licensing before publishing",
+      "verification_status": "researched",
+      "source_basis": "Official tourism information"
+    },
+    {
+      "id": "sira-waterfall-shaktikhor",
+      "name": "Sira Waterfall, Shaktikhor",
+      "category": "Nature",
+      "subcategory": "Waterfall",
+      "description": "A waterfall referenced in the official Chepang Hill Trail itinerary around Shaktikhor.",
+      "activities": [
+        "waterfall",
+        "hiking",
+        "photography"
+      ],
+      "best_season": "June-October",
+      "entry_fee_npr": null,
+      "entry_fee_note": null,
+      "visit_duration_hours": null,
+      "difficulty": null,
+      "latitude": null,
+      "longitude": null,
+      "address": null,
+      "opening_hours": null,
+      "facilities": [],
+      "google_maps_search": "Sira Waterfall, Shaktikhor, Chitwan, Nepal",
+      "image_search_queries": [
+        "Sira Waterfall, Shaktikhor Chitwan Nepal"
+      ],
+      "image_usage_status": "Web image found/recommended search query; verify copyright/licensing before publishing",
+      "verification_status": "researched",
+      "source_basis": "Official tourism publication; verify seasonal access"
+    },
+    {
+      "id": "sira-cave-shaktikhor",
+      "name": "Sira Cave, Shaktikhor",
+      "category": "Nature & Adventure",
+      "subcategory": "Cave",
+      "description": "A cave referenced in the official Chepang Hill Trail itinerary near Shaktikhor.",
+      "activities": [
+        "cave",
+        "hiking",
+        "adventure"
+      ],
+      "best_season": "October-April",
+      "entry_fee_npr": null,
+      "entry_fee_note": null,
+      "visit_duration_hours": null,
+      "difficulty": null,
+      "latitude": null,
+      "longitude": null,
+      "address": null,
+      "opening_hours": null,
+      "facilities": [],
+      "google_maps_search": "Sira Cave, Shaktikhor, Chitwan, Nepal",
+      "image_search_queries": [
+        "Sira Cave, Shaktikhor Chitwan Nepal"
+      ],
+      "image_usage_status": "Web image found/recommended search query; verify copyright/licensing before publishing",
+      "verification_status": "researched",
+      "source_basis": "Official tourism publication; verify current access"
+    },
+    {
+      "id": "chitram-waterfall",
+      "name": "Chitram Waterfall",
+      "category": "Nature",
+      "subcategory": "Waterfall",
+      "description": "A waterfall attraction referenced in Chitwan tourism material around the Chepang area.",
+      "activities": [
+        "waterfall",
+        "hiking",
+        "photography"
+      ],
+      "best_season": "June-October",
+      "entry_fee_npr": null,
+      "entry_fee_note": null,
+      "visit_duration_hours": null,
+      "difficulty": null,
+      "latitude": null,
+      "longitude": null,
+      "address": null,
+      "opening_hours": null,
+      "facilities": [],
+      "google_maps_search": "Chitram Waterfall, Chitwan, Nepal",
+      "image_search_queries": [
+        "Chitram Waterfall Chitwan Nepal"
+      ],
+      "image_usage_status": "Web image found/recommended search query; verify copyright/licensing before publishing",
+      "verification_status": "researched",
+      "source_basis": "Secondary tourism source; verify exact route"
+    },
+    {
+      "id": "siddi",
+      "name": "Siddi Village",
+      "category": "Culture & Adventure",
+      "subcategory": "Chepang village",
+      "description": "A rural Chepang-area village referenced in Chitwan tourism material.",
+      "activities": [
+        "village tourism",
+        "homestay",
+        "culture"
+      ],
+      "best_season": "October-April",
+      "entry_fee_npr": null,
+      "entry_fee_note": null,
+      "visit_duration_hours": null,
+      "difficulty": null,
+      "latitude": null,
+      "longitude": null,
+      "address": null,
+      "opening_hours": null,
+      "facilities": [],
+      "google_maps_search": "Siddi Village, Chitwan, Nepal",
+      "image_search_queries": [
+        "Siddi Village Chitwan Nepal"
+      ],
+      "image_usage_status": "Web image found/recommended search query; verify copyright/licensing before publishing",
+      "verification_status": "researched",
+      "source_basis": "Secondary tourism source; verify current homestays"
+    },
+    {
+      "id": "jautesh",
+      "name": "Jautesh",
+      "category": "Culture & Adventure",
+      "subcategory": "Trail village",
+      "description": "A village/stop on the Hugdi-Hattibang-Jyandala section of the Chepang route.",
+      "activities": [
+        "trekking",
+        "village walk",
+        "culture"
+      ],
+      "best_season": "October-April",
+      "entry_fee_npr": null,
+      "entry_fee_note": null,
+      "visit_duration_hours": null,
+      "difficulty": null,
+      "latitude": null,
+      "longitude": null,
+      "address": null,
+      "opening_hours": null,
+      "facilities": [],
+      "google_maps_search": "Jautesh, Chitwan, Nepal",
+      "image_search_queries": [
+        "Jautesh Chitwan Nepal"
+      ],
+      "image_usage_status": "Web image found/recommended search query; verify copyright/licensing before publishing",
+      "verification_status": "researched",
+      "source_basis": "Official tourism publication"
+    },
+    {
+      "id": "chango",
+      "name": "Chango",
+      "category": "Culture & Adventure",
+      "subcategory": "Trail village",
+      "description": "A village/stop on the Chepang Hill Trail.",
+      "activities": [
+        "trekking",
+        "village walk",
+        "culture"
+      ],
+      "best_season": "October-April",
+      "entry_fee_npr": null,
+      "entry_fee_note": null,
+      "visit_duration_hours": null,
+      "difficulty": null,
+      "latitude": null,
+      "longitude": null,
+      "address": null,
+      "opening_hours": null,
+      "facilities": [],
+      "google_maps_search": "Chango, Chitwan, Nepal",
+      "image_search_queries": [
+        "Chango Chitwan Nepal"
+      ],
+      "image_usage_status": "Web image found/recommended search query; verify copyright/licensing before publishing",
+      "verification_status": "researched",
+      "source_basis": "Official tourism publication"
+    },
+    {
+      "id": "dinglang",
+      "name": "Dinglang",
+      "category": "Culture & Adventure",
+      "subcategory": "Trail village",
+      "description": "A village/stop on the Chepang Hill Trail before Jyandala.",
+      "activities": [
+        "trekking",
+        "village walk",
+        "culture"
+      ],
+      "best_season": "October-April",
+      "entry_fee_npr": null,
+      "entry_fee_note": null,
+      "visit_duration_hours": null,
+      "difficulty": null,
+      "latitude": null,
+      "longitude": null,
+      "address": null,
+      "opening_hours": null,
+      "facilities": [],
+      "google_maps_search": "Dinglang, Chitwan, Nepal",
+      "image_search_queries": [
+        "Dinglang Chitwan Nepal"
+      ],
+      "image_usage_status": "Web image found/recommended search query; verify copyright/licensing before publishing",
+      "verification_status": "researched",
+      "source_basis": "Official tourism publication"
+    },
+    {
+      "id": "amalachuli",
+      "name": "Amalachuli",
+      "category": "Adventure",
+      "subcategory": "Trail section",
+      "description": "A route section used when approaching Uppardang Gadi from Shaktikhor.",
+      "activities": [
+        "trekking",
+        "forest",
+        "views"
+      ],
+      "best_season": "October-April",
+      "entry_fee_npr": null,
+      "entry_fee_note": null,
+      "visit_duration_hours": null,
+      "difficulty": null,
+      "latitude": null,
+      "longitude": null,
+      "address": null,
+      "opening_hours": null,
+      "facilities": [],
+      "google_maps_search": "Amalachuli, Chitwan, Nepal",
+      "image_search_queries": [
+        "Amalachuli Chitwan Nepal"
+      ],
+      "image_usage_status": "Web image found/recommended search query; verify copyright/licensing before publishing",
+      "verification_status": "researched",
+      "source_basis": "Local/official route information"
+    },
+    {
+      "id": "solbhanjyang",
+      "name": "Solbhanjyang",
+      "category": "Adventure",
+      "subcategory": "Trail section",
+      "description": "A route point on the Shaktikhor-Chisapanitar-Hattibang-Siraichuli trekking route.",
+      "activities": [
+        "trekking",
+        "forest",
+        "views"
+      ],
+      "best_season": "October-April",
+      "entry_fee_npr": null,
+      "entry_fee_note": null,
+      "visit_duration_hours": null,
+      "difficulty": null,
+      "latitude": null,
+      "longitude": null,
+      "address": null,
+      "opening_hours": null,
+      "facilities": [],
+      "google_maps_search": "Solbhanjyang, Chitwan, Nepal",
+      "image_search_queries": [
+        "Solbhanjyang Chitwan Nepal"
+      ],
+      "image_usage_status": "Web image found/recommended search query; verify copyright/licensing before publishing",
+      "verification_status": "researched",
+      "source_basis": "Local government route information"
+    },
+    {
+      "id": "hugdi",
+      "name": "Hugdi",
+      "category": "Adventure",
+      "subcategory": "Trail gateway",
+      "description": "A gateway on the Kathmandu-Chitwan highway and one end of the Chepang Hill Trail.",
+      "activities": [
+        "trekking",
+        "road-trip",
+        "rafting access"
+      ],
+      "best_season": "October-April",
+      "entry_fee_npr": null,
+      "entry_fee_note": null,
+      "visit_duration_hours": null,
+      "difficulty": null,
+      "latitude": null,
+      "longitude": null,
+      "address": null,
+      "opening_hours": null,
+      "facilities": [],
+      "google_maps_search": "Hugdi, Chitwan, Nepal",
+      "image_search_queries": [
+        "Hugdi Chitwan Nepal"
+      ],
+      "image_usage_status": "Web image found/recommended search query; verify copyright/licensing before publishing",
+      "verification_status": "researched",
+      "source_basis": "Official tourism information"
+    },
+    {
+      "id": "tribeni",
+      "name": "Tribeni",
+      "category": "Nature & Religion",
+      "subcategory": "River / pilgrimage area",
+      "description": "The Tribeni area near the southwestern side of Chitwan National Park, associated with Balmiki Ashram.",
+      "activities": [
+        "river",
+        "pilgrimage",
+        "forest",
+        "photography"
+      ],
+      "best_season": "October-March",
+      "entry_fee_npr": null,
+      "entry_fee_note": null,
+      "visit_duration_hours": null,
+      "difficulty": null,
+      "latitude": null,
+      "longitude": null,
+      "address": null,
+      "opening_hours": null,
+      "facilities": [],
+      "google_maps_search": "Tribeni, Chitwan, Nepal",
+      "image_search_queries": [
+        "Tribeni Chitwan Nepal"
+      ],
+      "image_usage_status": "Web image found/recommended search query; verify copyright/licensing before publishing",
+      "verification_status": "researched",
+      "source_basis": "Official tourism information"
+    },
+    {
+      "id": "amaltari",
+      "name": "Amaltari",
+      "category": "Wildlife",
+      "subcategory": "Park entrance / tourism area",
+      "description": "One of the listed entrance areas to Chitwan National Park in the western/southwestern region.",
+      "activities": [
+        "park access",
+        "wildlife",
+        "birdwatching"
+      ],
+      "best_season": "October-March",
+      "entry_fee_npr": null,
+      "entry_fee_note": null,
+      "visit_duration_hours": null,
+      "difficulty": null,
+      "latitude": null,
+      "longitude": null,
+      "address": null,
+      "opening_hours": null,
+      "facilities": [],
+      "google_maps_search": "Amaltari, Chitwan, Nepal",
+      "image_search_queries": [
+        "Amaltari Chitwan Nepal"
+      ],
+      "image_usage_status": "Web image found/recommended search query; verify copyright/licensing before publishing",
+      "verification_status": "researched",
+      "source_basis": "Official park information"
+    },
+    {
+      "id": "laukhani",
+      "name": "Laukhani",
+      "category": "Wildlife",
+      "subcategory": "Park entrance area",
+      "description": "A listed entrance gate/area for Chitwan National Park via Pragatinagar.",
+      "activities": [
+        "park access",
+        "wildlife",
+        "birdwatching"
+      ],
+      "best_season": "October-March",
+      "entry_fee_npr": null,
+      "entry_fee_note": null,
+      "visit_duration_hours": null,
+      "difficulty": null,
+      "latitude": null,
+      "longitude": null,
+      "address": null,
+      "opening_hours": null,
+      "facilities": [],
+      "google_maps_search": "Laukhani, Chitwan, Nepal",
+      "image_search_queries": [
+        "Laukhani Chitwan Nepal"
+      ],
+      "image_usage_status": "Web image found/recommended search query; verify copyright/licensing before publishing",
+      "verification_status": "researched",
+      "source_basis": "Official park information"
+    },
+    {
+      "id": "kujauli",
+      "name": "Kujauli",
+      "category": "Wildlife",
+      "subcategory": "Park entrance area",
+      "description": "A listed entrance gate to Chitwan National Park via Rajahar.",
+      "activities": [
+        "park access",
+        "wildlife",
+        "birdwatching"
+      ],
+      "best_season": "October-March",
+      "entry_fee_npr": null,
+      "entry_fee_note": null,
+      "visit_duration_hours": null,
+      "difficulty": null,
+      "latitude": null,
+      "longitude": null,
+      "address": null,
+      "opening_hours": null,
+      "facilities": [],
+      "google_maps_search": "Kujauli, Chitwan, Nepal",
+      "image_search_queries": [
+        "Kujauli Chitwan Nepal"
+      ],
+      "image_usage_status": "Web image found/recommended search query; verify copyright/licensing before publishing",
+      "verification_status": "researched",
+      "source_basis": "Official park information"
+    },
+    {
+      "id": "sunachuri",
+      "name": "Sunachuri",
+      "category": "Wildlife",
+      "subcategory": "Park entrance area",
+      "description": "A listed entrance gate to Chitwan National Park.",
+      "activities": [
+        "park access",
+        "wildlife",
+        "birdwatching"
+      ],
+      "best_season": "October-March",
+      "entry_fee_npr": null,
+      "entry_fee_note": null,
+      "visit_duration_hours": null,
+      "difficulty": null,
+      "latitude": null,
+      "longitude": null,
+      "address": null,
+      "opening_hours": null,
+      "facilities": [],
+      "google_maps_search": "Sunachuri, Chitwan, Nepal",
+      "image_search_queries": [
+        "Sunachuri Chitwan Nepal"
+      ],
+      "image_usage_status": "Web image found/recommended search query; verify copyright/licensing before publishing",
+      "verification_status": "researched",
+      "source_basis": "Official park information"
+    },
+    {
+      "id": "bhimle",
+      "name": "Bhimle / Meghauli Entrance",
+      "category": "Wildlife",
+      "subcategory": "Park entrance area",
+      "description": "A listed entrance to Chitwan National Park via Meghauli.",
+      "activities": [
+        "park access",
+        "wildlife",
+        "birdwatching"
+      ],
+      "best_season": "October-March",
+      "entry_fee_npr": null,
+      "entry_fee_note": null,
+      "visit_duration_hours": null,
+      "difficulty": null,
+      "latitude": null,
+      "longitude": null,
+      "address": null,
+      "opening_hours": null,
+      "facilities": [],
+      "google_maps_search": "Bhimle / Meghauli Entrance, Chitwan, Nepal",
+      "image_search_queries": [
+        "Bhimle / Meghauli Entrance Chitwan Nepal"
+      ],
+      "image_usage_status": "Web image found/recommended search query; verify copyright/licensing before publishing",
+      "verification_status": "researched",
+      "source_basis": "Official park information"
+    },
+    {
+      "id": "ghatgain",
+      "name": "Ghatgain",
+      "category": "Wildlife",
+      "subcategory": "Park entrance area",
+      "description": "A listed entrance to Chitwan National Park via Patihani.",
+      "activities": [
+        "park access",
+        "wildlife",
+        "birdwatching"
+      ],
+      "best_season": "October-March",
+      "entry_fee_npr": null,
+      "entry_fee_note": null,
+      "visit_duration_hours": null,
+      "difficulty": null,
+      "latitude": null,
+      "longitude": null,
+      "address": null,
+      "opening_hours": null,
+      "facilities": [],
+      "google_maps_search": "Ghatgain, Chitwan, Nepal",
+      "image_search_queries": [
+        "Ghatgain Chitwan Nepal"
+      ],
+      "image_usage_status": "Web image found/recommended search query; verify copyright/licensing before publishing",
+      "verification_status": "researched",
+      "source_basis": "Official park information"
+    },
+    {
+      "id": "khagendra-mali",
+      "name": "Khagendra Mali Entrance",
+      "category": "Wildlife",
+      "subcategory": "Park entrance area",
+      "description": "A listed entrance to Chitwan National Park via Bhandara.",
+      "activities": [
+        "park access",
+        "wildlife",
+        "birdwatching"
+      ],
+      "best_season": "October-March",
+      "entry_fee_npr": null,
+      "entry_fee_note": null,
+      "visit_duration_hours": null,
+      "difficulty": null,
+      "latitude": null,
+      "longitude": null,
+      "address": null,
+      "opening_hours": null,
+      "facilities": [],
+      "google_maps_search": "Khagendra Mali Entrance, Chitwan, Nepal",
+      "image_search_queries": [
+        "Khagendra Mali Entrance Chitwan Nepal"
+      ],
+      "image_usage_status": "Web image found/recommended search query; verify copyright/licensing before publishing",
+      "verification_status": "researched",
+      "source_basis": "Official park information"
+    },
+    {
+      "id": "sauraha-park-entrance",
+      "name": "Sauraha Park Entrance",
+      "category": "Wildlife",
+      "subcategory": "Park entrance area",
+      "description": "A listed entrance to Chitwan National Park via Tandi/Ratnanagar.",
+      "activities": [
+        "park access",
+        "wildlife",
+        "birdwatching"
+      ],
+      "best_season": "October-March",
+      "entry_fee_npr": null,
+      "entry_fee_note": null,
+      "visit_duration_hours": null,
+      "difficulty": null,
+      "latitude": null,
+      "longitude": null,
+      "address": null,
+      "opening_hours": null,
+      "facilities": [],
+      "google_maps_search": "Sauraha Park Entrance, Chitwan, Nepal",
+      "image_search_queries": [
+        "Sauraha Park Entrance Chitwan Nepal"
+      ],
+      "image_usage_status": "Web image found/recommended search query; verify copyright/licensing before publishing",
+      "verification_status": "researched",
+      "source_basis": "Official park information"
+    },
+    {
+      "id": "kasara-entrance",
+      "name": "Kasara Entrance",
+      "category": "Wildlife",
+      "subcategory": "Park entrance area",
+      "description": "A listed entrance to Chitwan National Park via Jagatpur.",
+      "activities": [
+        "park access",
+        "wildlife",
+        "birdwatching"
+      ],
+      "best_season": "October-March",
+      "entry_fee_npr": null,
+      "entry_fee_note": null,
+      "visit_duration_hours": null,
+      "difficulty": null,
+      "latitude": null,
+      "longitude": null,
+      "address": null,
+      "opening_hours": null,
+      "facilities": [],
+      "google_maps_search": "Kasara Entrance, Chitwan, Nepal",
+      "image_search_queries": [
+        "Kasara Entrance Chitwan Nepal"
+      ],
+      "image_usage_status": "Web image found/recommended search query; verify copyright/licensing before publishing",
+      "verification_status": "researched",
+      "source_basis": "Official park information"
+    },
+    {
+      "id": "tharu-village-sauraha",
+      "name": "Tharu Village, Sauraha",
+      "category": "Culture",
+      "subcategory": "Village experience",
+      "description": "Traditional village experience around Sauraha, including local architecture, food and cultural activities.",
+      "activities": [
+        "village tour",
+        "culture",
+        "food",
+        "photography"
+      ],
+      "best_season": "October-March",
+      "entry_fee_npr": null,
+      "entry_fee_note": null,
+      "visit_duration_hours": null,
+      "difficulty": null,
+      "latitude": null,
+      "longitude": null,
+      "address": null,
+      "opening_hours": null,
+      "facilities": [],
+      "google_maps_search": "Tharu Village, Sauraha, Chitwan, Nepal",
+      "image_search_queries": [
+        "Tharu Village, Sauraha Chitwan Nepal"
+      ],
+      "image_usage_status": "Web image found/recommended search query; verify copyright/licensing before publishing",
+      "verification_status": "researched",
+      "source_basis": "Official tourism information"
+    },
+    {
+      "id": "tharu-cultural-house",
+      "name": "Sauraha Tharu Cultural House",
+      "category": "Culture",
+      "subcategory": "Cultural performance venue",
+      "description": "A venue associated with Tharu cultural performances and local heritage.",
+      "activities": [
+        "cultural show",
+        "dance",
+        "music",
+        "heritage"
+      ],
+      "best_season": "October-March",
+      "entry_fee_npr": null,
+      "entry_fee_note": null,
+      "visit_duration_hours": null,
+      "difficulty": null,
+      "latitude": null,
+      "longitude": null,
+      "address": null,
+      "opening_hours": null,
+      "facilities": [],
+      "google_maps_search": "Sauraha Tharu Cultural House, Chitwan, Nepal",
+      "image_search_queries": [
+        "Sauraha Tharu Cultural House Chitwan Nepal"
+      ],
+      "image_usage_status": "Web image found/recommended search query; verify copyright/licensing before publishing",
+      "verification_status": "researched",
+      "source_basis": "Local listing; verify current program"
+    },
+    {
+      "id": "sauraha-riverside",
+      "name": "Sauraha Riverside",
+      "category": "Nature & Leisure",
+      "subcategory": "Riverfront",
+      "description": "The tourist riverfront along the Rapti in Sauraha, with restaurants, walks and sunset viewing.",
+      "activities": [
+        "sunset",
+        "river walk",
+        "food",
+        "photography"
+      ],
+      "best_season": "October-March",
+      "entry_fee_npr": null,
+      "entry_fee_note": null,
+      "visit_duration_hours": null,
+      "difficulty": null,
+      "latitude": null,
+      "longitude": null,
+      "address": null,
+      "opening_hours": null,
+      "facilities": [],
+      "google_maps_search": "Sauraha Riverside, Chitwan, Nepal",
+      "image_search_queries": [
+        "Sauraha Riverside Chitwan Nepal"
+      ],
+      "image_usage_status": "Web image found/recommended search query; verify copyright/licensing before publishing",
+      "verification_status": "researched",
+      "source_basis": "Official tourism information"
+    },
+    {
+      "id": "bhandara",
+      "name": "Bhandara",
+      "category": "Culture & Gateway",
+      "subcategory": "Town / gateway",
+      "description": "A northern/eastern Chitwan gateway area and route toward park access and the Chepang hills.",
+      "activities": [
+        "local culture",
+        "road trip",
+        "park access"
+      ],
+      "best_season": "October-March",
+      "entry_fee_npr": null,
+      "entry_fee_note": null,
+      "visit_duration_hours": null,
+      "difficulty": null,
+      "latitude": null,
+      "longitude": null,
+      "address": null,
+      "opening_hours": null,
+      "facilities": [],
+      "google_maps_search": "Bhandara, Chitwan, Nepal",
+      "image_search_queries": [
+        "Bhandara Chitwan Nepal"
+      ],
+      "image_usage_status": "Web image found/recommended search query; verify copyright/licensing before publishing",
+      "verification_status": "researched",
+      "source_basis": "Regional tourism context"
+    },
+    {
+      "id": "jagatpur",
+      "name": "Jagatpur",
+      "category": "Wildlife & Leisure",
+      "subcategory": "Park gateway area",
+      "description": "A western Chitwan tourism area and route toward Kasara and park access.",
+      "activities": [
+        "wildlife",
+        "park access",
+        "river landscape"
+      ],
+      "best_season": "October-March",
+      "entry_fee_npr": null,
+      "entry_fee_note": null,
+      "visit_duration_hours": null,
+      "difficulty": null,
+      "latitude": null,
+      "longitude": null,
+      "address": null,
+      "opening_hours": null,
+      "facilities": [],
+      "google_maps_search": "Jagatpur, Chitwan, Nepal",
+      "image_search_queries": [
+        "Jagatpur Chitwan Nepal"
+      ],
+      "image_usage_status": "Web image found/recommended search query; verify copyright/licensing before publishing",
+      "verification_status": "researched",
+      "source_basis": "Official park route information"
+    },
+    {
+      "id": "patihani",
+      "name": "Patihani",
+      "category": "Wildlife & Culture",
+      "subcategory": "Tourism area",
+      "description": "A Chitwan tourism area associated with park access via Ghatgain and community-based experiences.",
+      "activities": [
+        "wildlife",
+        "culture",
+        "birdwatching"
+      ],
+      "best_season": "October-March",
+      "entry_fee_npr": null,
+      "entry_fee_note": null,
+      "visit_duration_hours": null,
+      "difficulty": null,
+      "latitude": null,
+      "longitude": null,
+      "address": null,
+      "opening_hours": null,
+      "facilities": [],
+      "google_maps_search": "Patihani, Chitwan, Nepal",
+      "image_search_queries": [
+        "Patihani Chitwan Nepal"
+      ],
+      "image_usage_status": "Web image found/recommended search query; verify copyright/licensing before publishing",
+      "verification_status": "researched",
+      "source_basis": "Official park route information"
+    },
+    {
+      "id": "narayangadh",
+      "name": "Narayangadh",
+      "category": "City & Tourism",
+      "subcategory": "Commercial centre",
+      "description": "A major commercial and transport centre in Chitwan, useful as a base for nearby sightseeing.",
+      "activities": [
+        "markets",
+        "food",
+        "city walk",
+        "shopping"
+      ],
+      "best_season": "October-March",
+      "entry_fee_npr": null,
+      "entry_fee_note": null,
+      "visit_duration_hours": null,
+      "difficulty": null,
+      "latitude": null,
+      "longitude": null,
+      "address": null,
+      "opening_hours": null,
+      "facilities": [],
+      "google_maps_search": "Narayangadh, Chitwan, Nepal",
+      "image_search_queries": [
+        "Narayangadh Chitwan Nepal"
+      ],
+      "image_usage_status": "Web image found/recommended search query; verify copyright/licensing before publishing",
+      "verification_status": "researched",
+      "source_basis": "General tourism listing"
+    },
+    {
+      "id": "james-world-fun-park",
+      "name": "James World Fun Park",
+      "category": "Family & Entertainment",
+      "subcategory": "Amusement park",
+      "description": "A family-oriented amusement park in Lanku, Bharatpur.",
+      "activities": [
+        "rides",
+        "family entertainment",
+        "leisure"
+      ],
+      "best_season": "October-March",
+      "entry_fee_npr": null,
+      "entry_fee_note": null,
+      "visit_duration_hours": null,
+      "difficulty": null,
+      "latitude": null,
+      "longitude": null,
+      "address": null,
+      "opening_hours": null,
+      "facilities": [],
+      "google_maps_search": "James World Fun Park, Chitwan, Nepal",
+      "image_search_queries": [
+        "James World Fun Park Chitwan Nepal"
+      ],
+      "image_usage_status": "Web image found/recommended search query; verify copyright/licensing before publishing",
+      "verification_status": "researched",
+      "source_basis": "Local business listing; verify current ticket price"
+    },
+    {
+      "id": "maula-kalika-temple",
+      "name": "Maula Kalika Temple",
+      "category": "Religion & Viewpoint",
+      "subcategory": "Hilltop temple",
+      "description": "A prominent hilltop temple in Gaindakot, across the Narayani from Bharatpur, with broad views of the river and surrounding area.",
+      "activities": [
+        "temple",
+        "pilgrimage",
+        "views",
+        "photography"
+      ],
+      "best_season": "October-March",
+      "entry_fee_npr": null,
+      "entry_fee_note": null,
+      "visit_duration_hours": null,
+      "difficulty": null,
+      "latitude": null,
+      "longitude": null,
+      "address": null,
+      "opening_hours": null,
+      "facilities": [],
+      "google_maps_search": "Maula Kalika Temple, Chitwan, Nepal",
+      "image_search_queries": [
+        "Maula Kalika Temple Gaindakot Nepal"
+      ],
+      "image_usage_status": "Web image found/recommended search query; verify copyright/licensing before publishing",
+      "verification_status": "researched",
+      "source_basis": "Local listing / secondary source; geographically outside Chitwan district"
+    }
+  ]
+}

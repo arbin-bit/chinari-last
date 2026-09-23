@@ -1,0 +1,96 @@
+import type { Destination, LocalBusiness, TourismEvent } from "@/types/tourism";
+
+export const demoDestinations: Destination[] = [
+  {
+    id: "bishazari-tal", slug: "bishazari-tal", name: "Bishazari Tal", name_ne: "बिसहजारी ताल", name_hi: "बीसहज़ारी ताल",
+    short_description: "Wetland calm, birdlife and forest edges made for an unhurried morning.",
+    description: "A lake-and-wetland experience south of central Bharatpur, valued for quiet nature, waterbirds and forest-edge scenery.",
+    significance: "An important wetland landscape in the wider Chitwan area. Visitor conditions and access should be confirmed locally before travel.",
+    category: "Nature", subcategories: ["Wetland", "Birding", "Photography"], image: "/images/photos/beeshazari.jpg", image_alt: "Bishazari Tal lake in Chitwan",
+    latitude: 27.6207, longitude: 84.4382, municipality: "Bharatpur", address: "Bharatpur area, Chitwan", estimated_duration: "2–3 hours", duration_minutes: 150,
+    best_time: "Early morning", best_season: "Cooler, drier months", difficulty: "Easy", accessibility: "Mixed natural terrain; local confirmation recommended", family_friendly: true, senior_friendly: true,
+    tags: ["nature", "photography", "relaxation", "wildlife"], rating: 4.7, review_count: 128, popularity: 92, hidden_gem: false, verification_status: "UNVERIFIED",
+    facilities: ["Basic visitor facilities — verification required"], transport_options: ["Taxi", "Own vehicle"], safety_information: "Stay on established access routes and follow local guidance.", budget_level: 1,
+  },
+  {
+    id: "narayani-riverside", slug: "narayani-riverside", name: "Narayani Riverside", name_ne: "नारायणी नदी किनार", name_hi: "नारायणी नदी तट",
+    short_description: "Golden-hour river views and an easy introduction to Bharatpur's rhythm.",
+    description: "A relaxed riverside stop for evening light, open views and a sense of local life along the Narayani.", significance: "The river is central to Bharatpur's landscape and identity.",
+    category: "Nature", subcategories: ["River", "Sunset", "Local Life"], image: "/images/photos/narayani.jpg", image_alt: "The Narayani River",
+    latitude: 27.6876, longitude: 84.4204, municipality: "Bharatpur", address: "Narayani riverfront, Bharatpur", estimated_duration: "1–2 hours", duration_minutes: 90,
+    best_time: "Late afternoon", best_season: "Year-round, weather permitting", difficulty: "Easy", accessibility: "Some public areas may have uneven riverbank access", family_friendly: true, senior_friendly: true,
+    tags: ["nature", "photography", "local life", "relaxation"], rating: 4.6, review_count: 203, popularity: 95, hidden_gem: false, verification_status: "DEMO",
+    facilities: ["Riverside seating varies"], transport_options: ["Taxi", "Public transport", "Own vehicle"], safety_information: "Keep a safe distance from the water and follow posted local advice.", budget_level: 1,
+  },
+  {
+    id: "narayani-boating", slug: "narayani-boating", name: "Narayani Boating", name_ne: "नारायणी डुङ्गा यात्रा", name_hi: "नारायणी नौका अनुभव",
+    short_description: "A gentle river experience designed around views, conversation and sunset light.",
+    description: "A demonstration listing for a locally operated river outing. Operator, availability, safety standards and price must be verified before production use.", significance: "Shows how Chinari can surface bookable local experiences once verified providers are onboarded.",
+    category: "Adventure", subcategories: ["Boating", "River", "Sunset"], image: "/images/photos/narayani.jpg", image_alt: "Narayani River landscape; regional context for the demo boating experience",
+    latitude: 27.691, longitude: 84.416, municipality: "Bharatpur", address: "Narayani riverfront, Bharatpur", estimated_duration: "1 hour", duration_minutes: 60,
+    best_time: "Late afternoon", best_season: "Verification required", difficulty: "Easy", accessibility: "Operator confirmation required", family_friendly: true, senior_friendly: false,
+    tags: ["adventure", "boating", "photography"], popularity: 86, hidden_gem: false, verification_status: "DEMO",
+    facilities: ["Provider details pending verification"], transport_options: ["Taxi", "Own vehicle"], safety_information: "Use only verified operators and approved safety equipment.", budget_level: 2,
+  },
+  {
+    id: "devghat", slug: "devghat", name: "Devghat", name_ne: "देवघाट", name_hi: "देवघाट",
+    short_description: "A contemplative confluence landscape shaped by pilgrimage and living tradition.",
+    description: "A sacred riverside area where pilgrimage, temples and everyday community life meet at the confluence.", significance: "Devghat holds major religious and cultural importance. Respectful dress and conduct are recommended.",
+    category: "Religious", subcategories: ["Pilgrimage", "Culture", "River"], image: "/images/photos/devghat.jpg", image_alt: "Devghat riverside landscape",
+    latitude: 27.7525, longitude: 84.4225, municipality: "Bharatpur / Devghat area", address: "Devghat area", estimated_duration: "2 hours", duration_minutes: 120,
+    best_time: "Morning", best_season: "Year-round", difficulty: "Moderate", accessibility: "Steps and uneven paths are common", family_friendly: true, senior_friendly: true,
+    tags: ["religious", "culture", "local life", "photography"], rating: 4.8, review_count: 176, popularity: 90, hidden_gem: false, verification_status: "UNVERIFIED",
+    facilities: ["Local facilities — verification required"], transport_options: ["Taxi", "Public transport", "Own vehicle"], safety_information: "Expect steps near temples and riverbanks; respect worship areas.", budget_level: 1,
+  },
+  {
+    id: "sauraha", slug: "sauraha", name: "Sauraha", name_ne: "सौराहा", name_hi: "सौराहा",
+    short_description: "A lively gateway to wildlife experiences, river walks and Tharu culture.",
+    description: "A tourism hub east of Bharatpur with access to wildlife-oriented activities, accommodation and local cultural experiences.", significance: "A practical base for exploring the wider Chitwan tourism region.",
+    category: "Wildlife", subcategories: ["Wildlife", "Culture", "Stay"], image: "/images/photos/chitwan-rhinos.jpg", image_alt: "Greater one-horned rhinoceros and calf in Chitwan National Park",
+    latitude: 27.5784, longitude: 84.4969, municipality: "Ratnanagar", address: "Sauraha, Chitwan", estimated_duration: "Half day+", duration_minutes: 240,
+    best_time: "Morning and late afternoon", best_season: "Cooler, drier months", difficulty: "Easy", accessibility: "Varies by activity and operator", family_friendly: true, senior_friendly: true,
+    tags: ["wildlife", "culture", "food", "family"], rating: 4.6, review_count: 412, popularity: 99, hidden_gem: false, verification_status: "UNVERIFIED",
+    facilities: ["Accommodation", "Food", "Guides — verify individual providers"], transport_options: ["Taxi", "Tour vehicle", "Own vehicle"], safety_information: "Use authorized guides and follow park-area wildlife guidance.", budget_level: 2,
+  },
+  {
+    id: "meghauli", slug: "meghauli", name: "Meghauli", name_ne: "मेघौली", name_hi: "मेघौली",
+    short_description: "Wide river landscapes, village life and a quieter edge of western Chitwan.",
+    description: "A western Chitwan destination known for river landscapes and access to village and wildlife-oriented experiences.", significance: "A lower-key alternative for travellers interested in slower travel and local life.",
+    category: "Local Life", subcategories: ["Village", "River", "Wildlife"], image: "/images/photos/narayani.jpg", image_alt: "Narayani River; regional context for western Chitwan",
+    latitude: 27.5727, longitude: 84.2352, municipality: "Bharatpur", address: "Meghauli, Chitwan", estimated_duration: "Half day", duration_minutes: 210,
+    best_time: "Morning or sunset", best_season: "Cooler, drier months", difficulty: "Easy", accessibility: "Confirm with local provider", family_friendly: true, senior_friendly: true,
+    tags: ["local life", "nature", "wildlife", "photography"], rating: 4.7, review_count: 84, popularity: 72, hidden_gem: true, verification_status: "UNVERIFIED",
+    facilities: ["Local stays and guides — verification required"], transport_options: ["Taxi", "Own vehicle"], safety_information: "Plan return transport before travelling to remote areas.", budget_level: 2,
+  },
+  {
+    id: "patihani-village", slug: "patihani-village", name: "Patihani Village Trail", name_ne: "पटिहानी गाउँ पदमार्ग", name_hi: "पटिहानी गाँव पथ",
+    short_description: "A demo hidden-gem route through river-edge farming and everyday local life.",
+    description: "A prototype community walk concept designed to connect visitors with local landscape, food and stories after municipal and community verification.", significance: "DEMO hidden gem. This route requires community consent, mapping and local validation before production use.",
+    category: "Local Life", subcategories: ["Village", "Walking", "Community"], image: "/images/photos/tharu-village.jpg", image_alt: "Tharu village in Sauraha; regional context, not the proposed Patihani trail",
+    latitude: 27.5817, longitude: 84.3536, municipality: "Bharatpur", address: "Patihani area, Bharatpur", estimated_duration: "2 hours", duration_minutes: 120,
+    best_time: "Morning", best_season: "Verification required", difficulty: "Easy", accessibility: "Route audit required", family_friendly: true, senior_friendly: false,
+    tags: ["hidden gems", "local life", "food", "photography"], popularity: 44, hidden_gem: true, verification_status: "DEMO",
+    facilities: ["Prototype route — no verified facilities"], transport_options: ["Taxi", "Own vehicle"], safety_information: "Do not enter private land; use only a future verified route.", budget_level: 1,
+  },
+  {
+    id: "tharu-food-table", slug: "tharu-food-table", name: "Tharu Food Table", name_ne: "थारु भोजन अनुभव", name_hi: "थारू भोजन अनुभव",
+    short_description: "A hosted local-food concept centred on seasonal dishes and conversation.",
+    description: "A demo local experience illustrating how verified community food hosts could be discovered and added to a journey.", significance: "DEMO experience pending business and community verification.",
+    category: "Food", subcategories: ["Cuisine", "Culture", "Community"], image: "/images/photos/tharu-food.jpg", image_alt: "Tharu cuisine; representative food photograph, not a verified host",
+    latitude: 27.592, longitude: 84.471, municipality: "Bharatpur", address: "Bharatpur area — host pending", estimated_duration: "1.5 hours", duration_minutes: 90,
+    best_time: "Lunch or early dinner", best_season: "Year-round", difficulty: "Easy", accessibility: "Host confirmation required", family_friendly: true, senior_friendly: true,
+    tags: ["food", "culture", "local life", "hidden gems"], popularity: 56, hidden_gem: true, verification_status: "DEMO",
+    facilities: ["Host details pending verification"], transport_options: ["Taxi"], safety_information: "Dietary needs and food-safety information must be confirmed with a verified host.", budget_level: 2,
+  },
+];
+
+export const demoBusinesses: LocalBusiness[] = [
+  { id: "b1", name: "Narayani Local Kitchen", category: "Food", location: "Riverfront area", price_range: "NPR ··", verification_status: "DEMO" },
+  { id: "b2", name: "Meghauli Community Stay", category: "Stay", location: "Meghauli", price_range: "NPR ··", verification_status: "DEMO" },
+  { id: "b3", name: "Chitwan Craft Collective", category: "Craft", location: "Bharatpur", price_range: "NPR ·", verification_status: "DEMO" },
+];
+
+export const demoEvents: TourismEvent[] = [
+  { id: "e1", name: "River Stories Evening", date_label: "Demo · Saturday", location: "Narayani Riverside", verification_status: "DEMO" },
+  { id: "e2", name: "Local Food Walk", date_label: "Demo · Sunday", location: "Bharatpur", verification_status: "DEMO" },
+];
